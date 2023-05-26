@@ -10,5 +10,5 @@ package Views;
  * @author Admin
  */
 public class NewClass {
-    
+    public String abc;
 }
