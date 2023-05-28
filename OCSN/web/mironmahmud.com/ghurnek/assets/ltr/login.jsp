@@ -1,6 +1,8 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Mirrored from mironmahmud.com/ghurnek/assets/ltr/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 May 2023 09:25:59 GMT -->
+    <!-- Mirrored from mironmahmud.com/ghurnek/assets/ltr/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 May 2023 09:26:10 GMT -->
     <!-- Added by HTTrack -->
     <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
@@ -12,7 +14,7 @@
         <meta name="title" content="Ghurnek - Automotive Car Dealer HTML Template">
         <meta name="keywords"
               content="automotive, car, dealer, dealership, car dealership, html, template, auto, directory, inventory, listing, vehicle, inventory managment, bootstrap, classified ads">
-        <title>Register | Ghurnek</title>
+        <title>Login | Ghurnek</title>
         <link rel="icon" href="../images/favicon.png">
         <link rel="stylesheet" href="../fonts/typography/jost.css">
         <link rel="stylesheet" href="../fonts/icofont/icofont.css">
@@ -46,21 +48,18 @@
             </div>
             <form class="auth-form">
                 <div class="auth-form-content">
-                    <h3 class="auth-form-title">Register a new account.</h3>
-                    <div class="form-group"><input type="text" class="form-control" placeholder="enter full name"></div>
-                    <div class="form-group"><input type="email" class="form-control" placeholder="enter email address">
+                    <h3 class="auth-form-title">Login with your credentials.</h3>
+                    <div class="form-group"><input type="email" class="form-control" placeholder="enter your email"></div>
+                    <div class="form-group"><input type="password" class="form-control" placeholder="enter your password">
                     </div>
-                    <div class="form-group"><input type="password" class="form-control" placeholder="enter strong password">
-                    </div>
-                    <div class="form-group"><input type="password" class="form-control" placeholder="enter reapet password">
-                    </div>
-                    <div class="form-check"><input class="form-check-input" type="checkbox" id="checkAgree"><label
-                            class="form-check-label" for="checkAgree">I agree to the <a href="#">Terms </a>and <a
-                                href="#">Privacy Policy</a>.</label></div><button type="submit"
-                                                                      class="form-btn">register</button>
+                    <div class="form-group-content">
+                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="checkAgree"><label
+                                class="form-check-label" for="checkAgree">Remember me.</label></div><a class="auth-forgot"
+                                                                                               href="forgot-password.html">forgot password?</a>
+                    </div><button type="submit" class="form-btn">login</button>
                     <div class="auth-form-or"><span>or</span></div>
                     <ul class="auth-form-continue">
-                        <p class="auth-form-text">Already have an account? <a href="login.jsp">Login here</a></p>
+                        <p class="auth-form-text">Don't have any account? <a href="register.jsp">Register here</a></p>
                     </ul>
                 </div>
             </form>
@@ -69,6 +68,6 @@
         <script src="../vendor/bootstrap/popper.min.js"></script>
         <script src="../vendor/bootstrap/bootstrap.min.js"></script>
     </body>
-    <!-- Mirrored from mironmahmud.com/ghurnek/assets/ltr/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 May 2023 09:26:00 GMT -->
-
+    <!-- Mirrored from mironmahmud.com/ghurnek/assets/ltr/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 May 2023 09:26:10 GMT -->
+`
 </html>

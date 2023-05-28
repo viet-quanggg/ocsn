@@ -105,7 +105,7 @@ h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
 		<TR>
 			<TD BACKGROUND="fade.gif">
 				&middot;
-					<A HREF="mironmahmud.com/ghurnek/assets/ltr/index.html">
+					<A HREF="mironmahmud.com/ghurnek/assets/ltr/index.jsp">
 						mironmahmud.com/ghurnek/assets/ltr/index.html
 					</A>		
 			</TD>

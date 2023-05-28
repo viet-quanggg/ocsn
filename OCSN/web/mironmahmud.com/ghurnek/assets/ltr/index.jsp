@@ -1,8 +1,16 @@
+<%-- 
+    Document   : index
+    Created on : May 28, 2023, 8:03:26 AM
+    Author     : Dell
+--%>
+
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <!-- Mirrored from mironmahmud.com/ghurnek/assets/ltr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 May 2023 09:25:28 GMT -->
 <!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />  <!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charset="UTF-8">
@@ -168,7 +176,7 @@
                             <ul class="drop-list">
                                 <li class="drop-item"><a href="login.html" class="drop-link"><i
                                             class="material-icons">remove</i><span>login</span></a></li>
-                                <li class="drop-item"><a href="register.html" class="drop-link"><i
+                                <li class="drop-item"><a href="register.jsp" class="drop-link"><i
                                             class="material-icons">remove</i><span>register</span></a></li>
                                 <li class="drop-item"><a href="forgot-password.html" class="drop-link"><i
                                             class="material-icons">remove</i><span>forgot password</span></a></li>
