@@ -1,6 +1,6 @@
 package Controllers;
 import Models.User;
-import MOdels.UserFacade;
+import Models.UserFacade;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;

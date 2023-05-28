@@ -14,14 +14,14 @@ public class User {
     private String userName;
     private String userEmail;
     private String userAddress;
-    private int userPhone;
+    private String userPhone;
     private int userRole;
     private String userImage;
 
     public User() {
     }
 
-    public User(int userID, String userPass, String userName, String userEmail, String userAddress, int userPhone, int userRole, String userImage) {
+    public User(int userID, String userPass, String userName, String userEmail, String userAddress, String userPhone, int userRole, String userImage) {
         this.userID = userID;
         this.userPass = userPass;
         this.userName = userName;
@@ -72,11 +72,11 @@ public class User {
         this.userAddress = userAddress;
     }
 
-    public int getUserPhone() {
+    public String getUserPhone() {
         return userPhone;
     }
 
-    public void setUserPhone(int userPhone) {
+    public void setUserPhone(String userPhone) {
         this.userPhone = userPhone;
     }
 

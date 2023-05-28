@@ -59,7 +59,9 @@
                     </div><button type="submit" class="form-btn">login</button>
                     <div class="auth-form-or"><span>or</span></div>
                     <ul class="auth-form-continue">
+                        
                         <p class="auth-form-text">Don't have any account? <a href="register.jsp">Register here</a></p>
+                        
                     </ul>
                 </div>
             </form>
