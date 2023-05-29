@@ -30,11 +30,12 @@
                 </div>
                 <div class="col-lg-6 col-xl-6">
                     <div class="about-content">
-                        <h3>Ghurnek has been standing on the trust of customers for the last 10 years</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, eligendi consectetur
-                            laboriosam qui optio illo provident impedit, vero nisi commodi delectus pariatur eum
-                            mollitia excepturi temporibus aspernatur, repudiandae animi. Quaerat sit rem doloremque
-                            repellat tenetur mollitia quae, provident quasi voluptatibus ducimus velit excepturi?</p>
+                        <h3>OCSN - A new star in the online market place</h3>
+                        <p>In order to create a friendly and easy-to-use online website to sell and buy cars.
+                            We provided a reliable services with trained staffs to support you in selling and buying cars.
+                            As a new member to the online market place, we hope we can provided you with best services and 
+                            reasonable prices.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -78,23 +79,31 @@
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
                 <div class="col">
                     <div class="feature-card"><i class="material-icons">fact_check</i>
-                        <h3>amet perferen consect</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus explicabo ommodi
-                            perferendis, libero ullam, cum nam ab quam suscipit maxime.</p>
+                        <h3>All kind of cars</h3>
+                        <p>On our website, we provided you thousand kind of cars from old
+                           to new and every types.So that you can easily choose the car 
+                           that suit for your need.      
+                        </p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="feature-card"><i class="material-icons">verified_user</i>
-                        <h3>amet perferen consect</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus explicabo ommodi
-                            perferendis, libero ullam, cum nam ab quam suscipit maxime.</p>
+                        <h3>Covered Transaction </h3>
+                        <p>
+                            Your transaction is protected with our privacy rule, you
+                            don't have to worry about security problems, your information will
+                            be protected at all cost.
+                        </p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="feature-card"><i class="material-icons">report_problem</i>
-                        <h3>amet perferen consect</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus explicabo ommodi
-                            perferendis, libero ullam, cum nam ab quam suscipit maxime.</p>
+                        <h3>User Protection</h3>
+                        <p>
+                            Scared of scammers? That will not happen in our website.
+                            With our Scam Check System, we will eliminate this concern for you
+                            Your spending will be protected.
+                        </p>
                     </div>
                 </div>
                 <div class="col">
@@ -290,8 +299,8 @@
                         <div class="intro-overlay">
                             <div class="intro-content">
                                 <h3>Want to sell your car quickly?</h3>
-                                <p>Lorem ipsum dolor amet consectetur libero accusantium minima</p>
-                            </div><a href="create-ads.html" class="btn btn-inline"><i
+                                <p>Take your car's picture and start posting now!</p>
+                            </div><a href="<c:url value="/order/createad.do"/>" class="btn btn-inline"><i
                                     class="material-icons">storefront</i><span>sell vehicless</span></a>
                         </div>
                     </div>

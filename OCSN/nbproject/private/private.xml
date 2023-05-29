@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/src/java/Controllers/BlogController.java</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/web/WEB-INF/views/login/login.jsp</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/web/WEB-INF/views/login/register.jsp</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/web/WEB-INF/views/cars/carlist.jsp</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/src/java/Controllers/CarController.java</file>
             <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/web/index.jsp</file>
-            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/src/java/Controllers/FrontController.java</file>
         </group>
     </open-files>
 </project-private>
