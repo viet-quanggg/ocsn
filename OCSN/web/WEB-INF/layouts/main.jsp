@@ -116,12 +116,10 @@
                             <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">inventory</i><span
                                         class="nav-text">inventory</span><span class="nav-arrow"></span></a>
                                 <ul class="drop-list">
-                                    <li class="drop-item"><a href="inventory-grid.html" class="drop-link"><i
-                                                class="material-icons">remove</i><span>inventory grid</span></a></li>
-                                    <li class="drop-item"><a href="inventory-list.html" class="drop-link"><i
-                                                class="material-icons">remove</i><span>inventory list</span></a></li>
-                                    <li class="drop-item"><a href="inventory-single.html" class="drop-link"><i
-                                                class="material-icons">remove</i><span>inventory single</span></a></li>
+                                    <li class="drop-item"><a href="<c:url value="/cars/cargrid.do"/>" class="drop-link"><i
+                                                class="material-icons">remove</i><span>Car grid</span></a></li>
+                                    <li class="drop-item"><a href="<c:url value="/cars/carlist.do"/>" class="drop-link"><i
+                                                class="material-icons">remove</i><span>car list</span></a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">store</i><span
@@ -138,27 +136,19 @@
                             <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">menu_book</i><span
                                         class="nav-text">pages</span><span class="nav-arrow"></span></a>
                                 <ul class="drop-list">
-                                    <li class="drop-item"><a href="about-us.html" class="drop-link"><i
+                                    <li class="drop-item"><a href="<c:url value="/ocsn/aboutus.do"/>" class="drop-link"><i
                                                 class="material-icons">remove</i><span>about us</span></a></li>
-                                    <li class="drop-item"><a href="pricing-plan.html" class="drop-link"><i
+                                    <li class="drop-item"><a href="<c:url value="/order/pricingplan.do"/>" class="drop-link"><i
                                                 class="material-icons">remove</i><span>pricing plan</span></a></li>
-                                    <li class="drop-item"><a href="coming-soon.html" class="drop-link"><i
-                                                class="material-icons">remove</i><span>coming soon</span></a></li>
-                                    <li class="drop-item"><a href="404.html" class="drop-link"><i
-                                                class="material-icons">remove</i><span>404 error</span></a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">feed</i><span
                                         class="nav-text">blogs</span><span class="nav-arrow"></span></a>
                                 <ul class="drop-list">
-                                    <li class="drop-item"><a href="blog-grid.html" class="drop-link"><i
+                                    <li class="drop-item"><a href="<c:url value="/blog/bloggrid.do"/>" class="drop-link"><i
                                                 class="material-icons">remove</i><span>blog grid</span></a></li>
-                                    <li class="drop-item"><a href="blog-list.html" class="drop-link"><i
+                                    <li class="drop-item"><a href="<c:url value="/blog/bloglist.do"/>" class="drop-link"><i
                                                 class="material-icons">remove</i><span>blog list</span></a></li>
-                                    <li class="drop-item"><a href="blog-author.html" class="drop-link"><i
-                                                class="material-icons">remove</i><span>blog author</span></a></li>
-                                    <li class="drop-item"><a href="blog-single.html" class="drop-link"><i
-                                                class="material-icons">remove</i><span>blog single</span></a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a href="#" class="nav-link"><i
@@ -167,9 +157,9 @@
                                 <ul class="drop-list">
                                     <li class="drop-item"><a href="faq.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>faqs</span></a></li>
-                                    <li class="drop-item"><a href="contact.html" class="drop-link"><i
+                                    <li class="drop-item"><a href="<c:url value="/ocsn/contact.do"/>" class="drop-link"><i
                                                 class="material-icons">remove</i><span>contact us</span></a></li>
-                                    <li class="drop-item"><a href="privacy.html" class="drop-link"><i
+                                    <li class="drop-item"><a href="<c:url value="/login/privacy.do"/>" class="drop-link"><i
                                                 class="material-icons">remove</i><span>privacy policy</span></a></li>
                                 </ul>
                             </li>
@@ -189,9 +179,9 @@
                     <div class="sidebar-group">
                         <h5 class="sidebar-title">user menu</h5>
                         <ul class="nav-list">
-                            <li class="nav-item"><a href="dashboard.html" class="nav-link"><i
+                            <li class="nav-item"><a href="<c:url value="/user/dashboard.do"/>" class="nav-link"><i
                                         class="material-icons">dashboard</i><span class="nav-text">dashboard</span></a></li>
-                            <li class="nav-item"><a href="<c:url value="/views/login/profile.do"/>" class="nav-link"><i
+                            <li class="nav-item"><a href="<c:url value="/login/profile.do"/>" class="nav-link"><i
                                         class="material-icons">account_circle</i><span class="nav-text">profile</span></a>
                             </li>
                             <li class="nav-item"><a href="<c:url value="/order/createad.do"/>" class="nav-link"><i
@@ -277,8 +267,10 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="footer-widget">
                         <h3>about company</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ullam repellat sit. Ipsa
-                            saepe maiores placeat eligendi totam quisquam necessitatibus dignissimos</p>
+                        <p>In order to create a friendly and easy-to-use online website to sell and buy cars.
+                            We provided a reliable services with trained staffs to support you in selling and buying cars.
+                            As a new member to the online market place, we hope we can provided you with best services and 
+                            reasonable prices.</p>
                         <div class="footer-badge"><img src="${pageContext.request.contextPath}/mironmahmud.com/ghurnek/assets/images/badge/01.png" alt="badge"><img
                                 src="${pageContext.request.contextPath}/mironmahmud.com/ghurnek/assets/images/badge/02.png" alt="badge"></div>
                     </div>
@@ -289,9 +281,9 @@
                             <h3>importants</h3>
                             <ul class="footer-list">
                                 <li><a href="#">sell vehicless</a></li>
-                                <li><a href="#">privacy policy</a></li>
-                                <li><a href="#">about company</a></li>
-                                <li><a href="#">contact us</a></li>
+                                <li><a href="<c:url value="/login/privacy.do"/>">privacy policy</a></li>
+                                <li><a href="<c:url value="/ocsn/aboutus.do"/>">about company</a></li>
+                                <li><a href="<c:url value="/ocsn/contact.do"/>">contact us</a></li>
                                 <li><a href="#">career</a></li>
                             </ul>
                         </div>

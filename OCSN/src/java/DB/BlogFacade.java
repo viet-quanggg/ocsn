@@ -37,4 +37,26 @@ public class BlogFacade {
         con.close();
         return list;
     }
+    
+//    public ArrayList<Blog> userList() throws SQLException {
+//        Blog blog
+//        ArrayList<User> list = new ArrayList<>();
+//        Connection con = DBContext.getConnection();
+//        PreparedStatement stm = con.prepareStatement("select * from [User]");
+//        ResultSet rs = stm.executeQuery();
+//        if (rs.next()) {
+//            user = new User();
+//            user.setUserID(rs.getInt("userId"));
+//            user.setUserEmail(rs.getString("userEmail"));
+//            user.setUserPass(rs.getString("userPass"));
+//            user.setUserName(rs.getString("userName"));
+//            user.setUserPhone(rs.getString("userPhone"));
+//            user.setUserAddress(rs.getString("userAddress"));
+//            user.setUserRole(rs.getInt("userRole"));
+//            user.setUserImage(rs.getString("userImage"));
+//            list.add(user);
+//        }
+//        con.close();
+//        return list;
+//    }
 }
