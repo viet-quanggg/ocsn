@@ -3,11 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Dell/Documents/GitHub/ocsn/OCSN/src/java/Controllers/NewClass.java</file>
-            <file>file:/C:/Users/Dell/Documents/GitHub/ocsn/OCSN/web/WEB-INF/newhtml.html</file>
-            <file>file:/C:/Users/Dell/Documents/GitHub/ocsn/OCSN/src/java/Models/Car.java</file>
-            <file>file:/C:/Users/Dell/Documents/GitHub/ocsn/OCSN/src/java/Models/Order.java</file>
-            <file>file:/C:/Users/Dell/Documents/GitHub/ocsn/OCSN/src/java/DB/DBContext.java</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/src/java/Models/Blog.java</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/web/WEB-INF/views/ocsn/index.jsp</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/web/WEB-INF/views/blog/bloggrid.jsp</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/src/java/Controllers/UserController.java</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/src/java/Controllers/BlogController.java</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/web/WEB-INF/views/ocsn/aboutus.jsp</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/web/WEB-INF/layouts/main.jsp</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/src/java/DB/DBContext.java</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/src/java/Models/UserFacade.java</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/web/index.jsp</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/src/java/DB/BlogFacade.java</file>
+            <file>file:/Users/_viet.quangg/Documents/GitHub/ocsn/OCSN/web/WEB-INF/views/ocsn/contact.jsp</file>
         </group>
     </open-files>
 </project-private>

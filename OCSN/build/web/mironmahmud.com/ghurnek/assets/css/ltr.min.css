@@ -9011,12 +9011,12 @@ input::placeholder,textarea::placeholder{
         padding:25px
     }
 }
-form {
+/*form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 2em;
-  text-align: right; /* Add 'text-align' property */
+  text-align: right;  Add 'text-align' property 
 }
 
 table {
@@ -9066,7 +9066,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #2e8b57;
-}
+}*/
 
 
 

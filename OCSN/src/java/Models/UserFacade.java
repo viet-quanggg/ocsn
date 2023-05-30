@@ -52,12 +52,12 @@ public class UserFacade {
         ResultSet rs = stm.executeQuery();
         if (rs.next()) {
             user = new User();
-            user.setEmail(rs.getString("EMAIL"));
-            user.setAccountPass(rs.getString("ACCOUNTPASS"));
-            user.setAccountName(rs.getString("ACCOUNT_NAME"));
-            user.setAccountPhone(rs.getString("ACCOUNT_PHONE"));
-            user.setAccountAddress(rs.getString("ACCOUNT_ADDRESS"));
-            user.setRoleId(false);
+            user.setUserEmail(rs.getString("EMAIL"));
+            user.setUserPass(rs.getString("ACCOUNTPASS"));
+            user.setUserName(rs.getString("ACCOUNT_NAME"));
+            user.setUserPhone(rs.getString("ACCOUNT_PHONE"));
+            user.setUserAddress(rs.getString("ACCOUNT_ADDRESS"));
+            user.getUserRole(rs.getInt("1"));
         }
 
         con.close();
