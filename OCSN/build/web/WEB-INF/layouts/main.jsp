@@ -61,7 +61,7 @@
                             <option value="5">elantra</option>
                         </select><button type="submit">search</button></div>
                 </form>
-            </div><a href="<c:url value="/login/register.do"/>" class="header-user"><img src="${pageContext.request.contextPath}/mironmahmud.com/ghurnek/assets/images/user.png"
+            </div><a href="<c:url value="/login/login.do"/>" class="header-user"><img src="${pageContext.request.contextPath}/mironmahmud.com/ghurnek/assets/images/user.png"
                                                                    alt="user"><span>join</span></a><a href="<c:url value="/order/createad.do"/>" class="btn header-btn"><i
                     class="material-icons">storefront</i><span>sell vehicles</span></a>
         </header>
@@ -116,11 +116,11 @@
                             <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">inventory</i><span
                                         class="nav-text">inventory</span><span class="nav-arrow"></span></a>
                                 <ul class="drop-list">
-                                    <li class="drop-item"><a href="<c:url value="/cars/cargrid.do"/>" class="drop-link"><i
+                                    <li class="drop-item"><a href="inventory-grid.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>inventory grid</span></a></li>
-                                    <li class="drop-item"><a href="<c:url value="/cars/carlist.do"/>" class="drop-link"><i
+                                    <li class="drop-item"><a href="inventory-list.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>inventory list</span></a></li>
-                                    <li class="drop-item"><a href="<c:url value="/cars/carsingle.do"/>" class="drop-link"><i
+                                    <li class="drop-item"><a href="inventory-single.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>inventory single</span></a></li>
                                 </ul>
                             </li>
@@ -138,20 +138,26 @@
                             <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">menu_book</i><span
                                         class="nav-text">pages</span><span class="nav-arrow"></span></a>
                                 <ul class="drop-list">
-                                    <li class="drop-item"><a href="<c:url value="/ocsn/aboutus.do"/>" class="drop-link"><i
+                                    <li class="drop-item"><a href="about-us.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>about us</span></a></li>
-                                    <li class="drop-item"><a href="<c:url value="/order/pricingplan.do"/>" class="drop-link"><i
+                                    <li class="drop-item"><a href="pricing-plan.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>pricing plan</span></a></li>
+                                    <li class="drop-item"><a href="coming-soon.html" class="drop-link"><i
+                                                class="material-icons">remove</i><span>coming soon</span></a></li>
+                                    <li class="drop-item"><a href="404.html" class="drop-link"><i
+                                                class="material-icons">remove</i><span>404 error</span></a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">feed</i><span
                                         class="nav-text">blogs</span><span class="nav-arrow"></span></a>
                                 <ul class="drop-list">
-                                    <li class="drop-item"><a href="<c:url value="/ocsn/aboutus.do"/>" class="drop-link"><i
+                                    <li class="drop-item"><a href="blog-grid.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>blog grid</span></a></li>
-                                    <li class="drop-item"><a href="<c:url value="/blog/bloglist.do"/>" class="drop-link"><i
+                                    <li class="drop-item"><a href="blog-list.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>blog list</span></a></li>
-                                    <li class="drop-item"><a href="<c:url value="/blog/blogsingle.do"/>" class="drop-link"><i
+                                    <li class="drop-item"><a href="blog-author.html" class="drop-link"><i
+                                                class="material-icons">remove</i><span>blog author</span></a></li>
+                                    <li class="drop-item"><a href="blog-single.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>blog single</span></a></li>
                                 </ul>
                             </li>
@@ -161,9 +167,9 @@
                                 <ul class="drop-list">
                                     <li class="drop-item"><a href="faq.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>faqs</span></a></li>
-                                    <li class="drop-item"><a href="<c:url value="/ocsn/contact.do"/>" class="drop-link"><i
+                                    <li class="drop-item"><a href="contact.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>contact us</span></a></li>
-                                    <li class="drop-item"><a href="<c:url value="/login/privacy.do"/>" class="drop-link"><i
+                                    <li class="drop-item"><a href="privacy.html" class="drop-link"><i
                                                 class="material-icons">remove</i><span>privacy policy</span></a></li>
                                 </ul>
                             </li>

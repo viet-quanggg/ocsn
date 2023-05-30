@@ -3,6 +3,7 @@
     Created on : May 28, 2023, 9:10:46 AM
     Author     : _viet.quangg
 --%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="jakarta.tags.core"%>
 <head>
     <meta charset="UTF-8">
@@ -11,7 +12,7 @@
     <meta name="template" content="Ghurnek">
     <meta name="title" content="Ghurnek - Automotive Car Dealer HTML Template">
     <meta name="keywords"
-        content="automotive, car, dealer, dealership, car dealership, html, template, auto, directory, inventory, listing, vehicle, inventory managment, bootstrap, classified ads">
+          content="automotive, car, dealer, dealership, car dealership, html, template, auto, directory, inventory, listing, vehicle, inventory managment, bootstrap, classified ads">
     <title>Register | Ghurnek</title>
     <link rel="icon" href="${pageContext.request.contextPath}/mironmahmud.com/ghurnek/assets/images/favicon.png">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/mironmahmud.com/ghurnek/assets/fonts/typography/jost.css">
@@ -44,28 +45,29 @@
                 </div>
             </div>
         </div>
-        <form class="auth-form">
+        <form class="auth-form"action="<c:url value="/login/register_handler.do"/>" >
             <div class="auth-form-content">
                 <h3 class="auth-form-title">Register a new account.</h3>
-                <div class="form-group"><input type="text" class="form-control" placeholder="enter full name"></div>
-                <div class="form-group"><input type="email" class="form-control" placeholder="enter email address">
+                <div class="form-group"><input type="text" class="form-control" name="userName"placeholder="enter full name"></div>
+                <div class="form-group"><input type="email" name="userEmail" class="form-control" placeholder="enter email address">
                 </div>
-                <div class="form-group"><input type="password" class="form-control" placeholder="enter strong password">
+                <div class="form-group"><input type="password" name="userPass"class="form-control" placeholder="enter strong password">
                 </div>
-                <div class="form-group"><input type="password" class="form-control" placeholder="enter reapet password">
+                <div class="form-group"><input type="password" name="re_pass"class="form-control" placeholder="enter reapet password">
                 </div>
+                <div class="form-group"><input type="number" class="form-control" name="userPhone"placeholder="enter phone number"></div>
+                <div class="form-group"><input type="text" class="form-control" name="userAddress"placeholder="enter your address"></div>
                 <div class="form-check"><input class="form-check-input" type="checkbox" id="checkAgree"><label
                         class="form-check-label" for="checkAgree">I agree to the <a href="#">Terms </a> and <a
-                            href="<c:url value="/login/privacy.do"/>">Privacy Policy</a>.</label></div><button type="submit"
-                                                                  class="form-btn">register</button>
+                            href="<c:url value="/login/privacy.do"/>">Privacy Policy</a>.</label></div>
+                <button type="submit" name="op" value="register" class="form-btn">register</button>
+
                 <div class="auth-form-or"><span>or</span></div>
                 <ul class="auth-form-continue">
-                    <li><a class="facebook" href="#"><i class="icofont-facebook"></i><span>Continue with
-                                Facebook</span></a></li>
-                    <li><a class="instagram" href="#"><i class="icofont-instagram"></i><span>Continue with
-                                Instagram</span></a></li>
+                    <p class="auth-form-text">Already have an account? <a href="<c:url value="/login/login.do"/>">Login here</a></p>
+                    <i style="color: red">${error}</i>
+                    <i style="color: greenyellow">${message}</i>
                 </ul>
-                <p class="auth-form-text">Already have an account? <a href="<c:url value="/login/login.do"/>">Login here</a></p>
             </div>
         </form>
     </section>

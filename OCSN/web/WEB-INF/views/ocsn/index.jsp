@@ -3,7 +3,7 @@
     Created on : May 28, 2023, 12:05:04 AM
     Author     : _viet.quangg
 --%>
-
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="jakarta.tags.core"%>
 <body>
     <div class="mobile-menu"><a href="<c:url value="/login/register.do"/>"><i class="material-icons">person</i><span>account</span></a><a

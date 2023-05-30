@@ -11,7 +11,7 @@
     <meta name="template" content="Ghurnek">
     <meta name="title" content="Ghurnek - Automotive Car Dealer HTML Template">
     <meta name="keywords"
-        content="automotive, car, dealer, dealership, car dealership, html, template, auto, directory, inventory, listing, vehicle, inventory managment, bootstrap, classified ads">
+          content="automotive, car, dealer, dealership, car dealership, html, template, auto, directory, inventory, listing, vehicle, inventory managment, bootstrap, classified ads">
     <title>Forgot Password | Ghurnek</title>
     <link rel="icon" href="${pageContext.request.contextPath}/mironmahmud.com/ghurnek/assets/images/favicon.png">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/mironmahmud.com/ghurnek/assets/fonts/typography/jost.css">
@@ -26,7 +26,7 @@
         <div class="auth-banner"><img class="auth-banner-bg" src="${pageContext.request.contextPath}/mironmahmud.com/ghurnek/assets/images/bg/auth.jpg" alt="auth">
             <div class="auth-banner-overlay">
                 <div class="auth-content"><a class="auth-logo" href="index.html"><img src="${pageContext.request.contextPath}/mironmahmud.com/ghurnek/assets/images/logo.png"
-                            alt="logo"></a>
+                                                                                      alt="logo"></a>
                     <h1 class="auth-headline">Lorem ipsum dolor sit amet consectetur adipisicing</h1>
                     <p class="auth-details">Elit Iusto dolore libero recusandae dolor dolores explicabo ullam cum
                         facilis aperiam alias odio quam excepturi molestiae omnis inventore. Repudiandae officia placeat
@@ -51,12 +51,8 @@
                 <button type="submit" class="form-btn">get reset link</button>
                 <div class="auth-form-or"><span>or</span></div>
                 <ul class="auth-form-continue">
-                    <li><a class="facebook" href="#"><i class="icofont-facebook"></i><span>Continue with
-                                Facebook</span></a></li>
-                    <li><a class="instagram" href="#"><i class="icofont-instagram"></i><span>Continue with
-                                Instagram</span></a></li>
+                    <p class="auth-form-text">Go back to <a href="<c:url value="/ocsn/index.do"/>">login here</a></p>
                 </ul>
-                <p class="auth-form-text">Go back to <a href="<c:url value="/ocsn/index.do"/>">login here</a></p>
             </div>
         </form>
     </section>
