@@ -30,6 +30,7 @@ public class BlogFacade {
             Blog blog = new Blog();
             blog.setBlogID(rs.getInt("blogId"));
             blog.setBlogImage(rs.getString("blogImage"));
+            blog.setUserID(rs.getInt("userId"));
             blog.setBlogDate(rs.getDate("blogDate"));
             list.add(blog);
         }

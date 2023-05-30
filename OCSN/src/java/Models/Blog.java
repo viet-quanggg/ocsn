@@ -13,14 +13,16 @@ import java.util.Date;
 public class Blog {
     private int blogID;
     private String blogImage;
+    private int userID;
     private Date blogDate;
-
+ 
     public Blog() {
     }
 
-    public Blog(int blogID, String blogImage, Date blogDate) {
+    public Blog(int blogID, String blogImage,int userID, Date blogDate) {
         this.blogID = blogID;
         this.blogImage = blogImage;
+        this.userID = userID;
         this.blogDate = blogDate;
     }
 
@@ -46,6 +48,14 @@ public class Blog {
 
     public void setBlogDate(Date blogDate) {
         this.blogDate = blogDate;
+    }
+
+    public int getUserID() {
+        return userID;
+    }
+
+    public void setUserID(int userID) {
+        this.userID = userID;
     }
     
     

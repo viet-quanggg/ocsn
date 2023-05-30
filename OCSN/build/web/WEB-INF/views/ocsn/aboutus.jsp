@@ -108,23 +108,29 @@
                 </div>
                 <div class="col">
                     <div class="feature-card"><i class="material-icons">auto_stories</i>
-                        <h3>amet perferen consect</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus explicabo ommodi
-                            perferendis, libero ullam, cum nam ab quam suscipit maxime.</p>
+                        <h3>Policy</h3>
+                        <p>
+                            Our company provided services with many policies that protect users and bring them as
+                            many benefits as possible.
+                        </p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="feature-card"><i class="material-icons">stars</i>
-                        <h3>amet perferen consect</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus explicabo ommodi
-                            perferendis, libero ullam, cum nam ab quam suscipit maxime.</p>
+                        <h3>Skillful and Professional Staffs</h3>
+                        <p>
+                            Staffs of OCSN are trained carefully in order to take care or support you
+                            as fast as possible, as anytime you need. 
+                            </p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="feature-card"><i class="material-icons">rocket_launch</i>
-                        <h3>amet perferen consect</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus explicabo ommodi
-                            perferendis, libero ullam, cum nam ab quam suscipit maxime.</p>
+                        <h3>Fast and Secure Process</h3>
+                        <p>
+                            Our services are fast and secure, each "place order" button has been push.
+                            Your order is processed instantly so you can take your favorite car home as soon as possible.
+                            <p>
                     </div>
                 </div>
             </div>
